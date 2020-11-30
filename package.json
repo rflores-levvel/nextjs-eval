@@ -1,0 +1,28 @@
+{
+  "name": "nextjs-tailwindui",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "buttercms": "^1.2.3",
+    "dayjs": "^1.9.6",
+    "dotenv": "^8.2.0",
+    "next": "latest",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-jsx": "^3.3.0",
+    "swr": "^0.3.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.0.2",
+    "postcss": "8.1.7",
+    "serverless-next.js": "latest",
+    "tailwindcss": "^2.0.1"
+  },
+  "license": "MIT"
+}
