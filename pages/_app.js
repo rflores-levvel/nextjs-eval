@@ -15,16 +15,16 @@ function App({ Component, pageProps }) {
       <style jsx global>{`
         :root {
           --bg-color: white;
-          --primary-color: black;
-          --secondary-color: rgb(113, 128, 150);
+          --primary-color:  rgb(113, 128, 150);
+          --secondary-color: black;
           --link-color: blue;
         }
 
         [data-theme="dark"] {
           --bg-color: #121212;
-          --primary-color: #f4f4f6;
-          --secondary-color: #8999b0;
-          --link-color: red;
+          --primary-color: #8999b0;
+          --secondary-color: #f4f4f6;
+          --link-color: red; 
         }
 
         body {

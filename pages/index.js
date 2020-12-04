@@ -31,7 +31,6 @@ class HomePage extends Component {
 
   render() {
     const { data } = this.props;
-
     return (
       <>
         <Head>
@@ -44,19 +43,18 @@ class HomePage extends Component {
         >
           <ButterCMSContext.Consumer>
             {({
-              pageData
+              pageData, featureData
             }) => {
               return (
                 <Fragment>
                   <div className="relative">
-
-                    
-
                     <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                       <div>{pageData.slug}</div>
                       <div>{pageData.fields.page_name}</div>
                     </div>
+
                   </div>
+
                 </Fragment>
               );
             }}
